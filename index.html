@@ -1,0 +1,173 @@
+
+<html>
+<head>
+<title></title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+      <meta name="viewport" content="width=device-width, intitial-scael=1, shrink-to-fit=no">
+    <meta name="name" content="Govind Suresh's Portal">
+    <meta name="robots" content="noindex, nofollow">
+
+    
+</head>
+<body>
+         <nav1>
+    <ul>
+        <li><a href="https://www.instagram.com/noobster_art_/"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://twitter.com/GOVINDS82522818"><i class="fab fa-twitter"></i></a></li>
+        
+          <li><a href="https://mail.google.com/"><i class="fas fa-envelope-square"></i></a></li>
+        
+          <li><a href="https://www.linkedin.com/in/govind-suresh-b33a32183/"><i class="fab fa-linkedin-in"></i></a></li>
+        
+        
+        
+        
+        </ul>
+    
+    </nav1>
+    
+
+<div class="background">
+    <div class="nav">
+    <a class="a active" href="#">HOME</a>
+    <a class="b" href="#">ABOUT ME</a>
+    <a class="c" href="#">GALLERY</a>
+    <a class="d" href="#">CONTACT ME</a>
+    
+    </div>
+    
+    <div class="content">
+        <div class="home">
+        <h1>Govind Suresh</h1>
+        <h3>Mechanical Engineering Student</h3>
+        <h4>Artist</h4>
+        </div>
+        <div class="aboutme">
+        <p><b>Hello Friends,</b><br>
+        Welcome to my page. I am a final year <b>B.tech Mechanical Engineering student</b> studying <br>at Vellore Institute Of Technology, Chennai. My main interests include product and user-interface<br> design, renewable energy, coding and marketing. I love trying new things.I love sketching and digital art. <br> I am a competitive tennis and badminton player.I am an Ex-district 6 chess player. i love playing the <br>violin and singing from time to time. </p>
+         <p>sketching has been one of my hobbies for quiet sometime. Recently, i was introduced to digital art and <br>ever since, it has been an absolutely amazing experiance. Learning art has been very enjoyable. I have shared<br> some of my artwork in the gallery. please take a look and I hope you enjoy it. Feel free to contact me through my mail.</p>
+
+        </div>
+        <div class= "gallery">
+        
+        <div class="image">
+            
+            <img src="images/me.jpg"/>
+            </div>
+            <div class="image">
+            <img src="images/weeknd.jpg"/>
+            </div>
+            <div class="image">
+            <img src="images/reaper.jpg"/>
+            </div>
+            <div class="image">
+            <img src="images/billie.jpg"/>
+            </div>
+            <div class="image">
+            <img src="images/music.jpg"/>
+            </div>
+            <div class="image">
+            <img src="images/hills.jpg"/>
+            </div>
+            <div class="image">
+            <img src="images/spidey2.jpg"/>
+            </div>
+            <div class="image">
+            <img src="images/spidey.jpg"/>
+            </div>
+            <div class="image">
+            <img src="images/ghoda.jpg"/>
+            </div>
+            <div class="image">
+            <img src="images/wolf.jpg"/>
+            </div>
+            <div class="image">
+            <img src="images/dracarys.jpg"/>
+            </div>
+            <div class="image">
+            <img src="images/11.jpg"/>
+            </div>
+            
+        </div>
+        
+    <div class="contactme">
+        <div class="contactform">
+        <form action="index.html" method="post">
+            <input type="text" name="" class="inputtext" value="First Name">
+            <input type="text" name="" class="inputtext" value="Last Name">
+            <input type="text" name="" class="inputtext" value="Your Email">
+            <textarea cols="4" rows="6" class="inputmessage">Your Message...!!!</textarea>
+            <input type="button" name="" class="submitbutton" value="Submit">
+            </form>
+        
+        
+        </div>
+        
+        </div>
+    
+    </div>
+</div>
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        
+        $('a').click(function(){
+          //  alert("i am click");
+            var selected=$(this);
+            
+            $('a').removeClass('active');
+            $(selected).addClass('active');
+            
+        });
+   
+    var $a=$('.a'),
+        $b=$('.b'),
+        $c=$('.c'),
+        $d=$('.d'),
+        $home=$('.home'),
+        $aboutme=$('.aboutme'),
+        $gallery=$('.gallery'),
+        $contactme=$('.contactme');
+    $a.click(function(){
+        $home.fadeIn();
+        $aboutme.fadeOut();
+         $gallery.fadeOut();
+        $contactme.fadeOut();
+    })
+         $b.click(function(){
+        $home.fadeOut();
+        $aboutme.fadeIn();
+         $gallery.fadeOut();
+        $contactme.fadeOut();
+    })
+         $c.click(function(){
+        $home.fadeOut();
+        $aboutme.fadeOut();
+         $gallery.fadeIn();
+        $contactme.fadeOut();
+    })
+         $d.click(function(){
+        $home.fadeOut();
+        $aboutme.fadeOut();
+         $gallery.fadeOut();
+        $contactme.fadeIn();
+    })
+        
+    });
+    
+    
+    
+    
+    </script>
+
+    
+    
+    
+<script src="https://kit.fontawesome.com/691c8d7dd4.js" crossorigin="anonymous"></script>
+    <footer>
+  <hr>
+  <code>Copyright (c) 2020 Govind Suresh </code>
+  </footer>
+</body>
+
+</html>
